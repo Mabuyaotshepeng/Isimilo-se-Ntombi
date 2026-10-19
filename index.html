@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Isimilo se Ntombi</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<nav><b>ISIMILO SE NTOMBI</b><a href="#about">About</a><a href="#mission">Mission &amp; Vision</a><a href="#register">Register</a><a href="#donate">Donate</a><a href="#find">Find Us</a><a href="#contact">Contact</a></nav>
+
+<header class="hero"><div>
+<h1>Isimilo se Ntombi</h1>
+<p>Walking alongside young maidens on a journey of purity, dignity and purpose.</p>
+<a class="btn" href="#register">Register Your Daughter</a><a class="btn o" href="#donate">Support Us</a>
+</div></header>
+
+<section id="about"><div class="w two">
+<div><h2>About Us</h2><div class="bar"></div>
+<p>Isimilo se Ntombi is a non-profit organisation in Gauteng that walks alongside young maidens on a journey of purity, dignity, and purpose, from their school years until they graduate and step into adulthood.</p>
+<p>We believe every girl deserves to grow up knowing her worth. Rooted in the traditions of our elders, including the pride and discipline celebrated at the Umhlanga Reed Dance, we guide young women to honour themselves, their families, and their communities.</p>
+<p><b>Founders:</b> Khanyisile Magasela and partners.</p></div>
+<img src="images/reeds.jpg" alt="Maidens carrying reeds at the Umhlanga Reed Dance">
+</div></section>
+
+<section id="mission" class="alt"><div class="w">
+<h2>Our Mission &amp; Vision</h2><div class="bar"></div>
+<div class="cards">
+<div class="card"><h3>Our Mission</h3><p>To guide and mentor young girls in Gauteng to value their purity, stay committed to their education, and grow in self-respect, discipline and cultural pride until they complete school, with the support of their parents, elders and community.</p></div>
+<div class="card"><h3>Our Vision</h3><p>A generation of confident, dignified and purposeful young women who know their worth, honour their heritage, and rise as leaders in their families and communities.</p></div>
+</div></div></section>
+
+<section><div class="w"><h2>Our Heritage, Our Pride</h2><div class="bar"></div>
+<div class="gal">
+<img src="images/flags.jpg" alt="Maidens singing and waving flags" loading="lazy">
+<img src="images/regalia.jpg" alt="Maidens in traditional beadwork" loading="lazy">
+<img src="images/beads.jpg" alt="Young women in beaded necklaces" loading="lazy">
+<img src="images/procession.jpg" alt="Procession of girls in colourful regalia" loading="lazy">
+<img src="images/reeds.jpg" alt="Reed bearers" loading="lazy" style="object-position:center 25%">
+<img src="images/hero.jpg" alt="Maidens marching together" loading="lazy">
+</div></div></section>
+
+<section id="register" class="alt"><div class="w">
+<h2>Parent Registration</h2><div class="bar"></div>
+<p>Parents and guardians, please complete this form to register your daughter. Your details go straight to Khanyisile Magasela.</p>
+<form id="reg">
+<div class="row"><label>Parent / guardian full name<input name="parent" required></label>
+<label>Phone number<input name="phone" type="tel" required></label></div>
+<div class="row"><label>Your email<input name="email" type="email"></label>
+<label>Area / township<input name="area" required></label></div>
+<div class="row"><label>Daughter's full name<input name="child" required></label>
+<label>Daughter's age<input name="age" type="number" min="5" max="25" required></label></div>
+<div class="row"><label>School<input name="school"></label>
+<label>Grade<input name="grade"></label></div>
+<label>Anything we should know (optional)<textarea name="notes"></textarea></label>
+<label style="display:flex;gap:10px;align-items:flex-start;font-weight:400"><input type="checkbox" required style="width:auto;margin-top:5px"> I am the parent/guardian and consent to my daughter taking part in the organisation's programme.</label>
+<button class="btn" type="submit">Send Registration</button>
+<p class="note" id="regmsg">When you press send, your email app opens with the form filled in. Just press Send there.</p>
+</form></div></section>
+
+<section id="donate" class="band"><div class="w">
+<h2>Make a Donation</h2><div class="bar"></div>
+<p style="max-width:640px">Your gift helps us run mentorship, ceremonies, school support and community events for young maidens. Every contribution, big or small, makes a difference.</p>
+<div class="bank"><h3 style="margin:0 0 8px;font-family:inherit">Bank details</h3>
+<p><b>Account name:</b> Isimilo se Ntombi NPO</p>
+<p><b>Bank:</b> Example Bank</p>
+<p><b>Account number:</b> 1234 567 890</p>
+<p><b>Branch code:</b> 000 000</p>
+<p><b>Reference:</b> Your name + DONATE</p></div>
+<p class="note" style="color:#e8d6c5">Sample details shown for now.</p>
+</div></section>
+
+<section id="find"><div class="w">
+<h2>Where to Find Us</h2><div class="bar"></div>
+<div class="cards">
+<div class="card"><h3>Location</h3><p>Isimilo se Ntombi<br>[Street address]<br>[Suburb / Township], Gauteng<br>South Africa</p>
+<p><a href="https://www.google.com/maps/search/?api=1&query=Gauteng+South+Africa" target="_blank" rel="noopener">Open in Google Maps</a></p></div>
+<div class="card"><h3>Meeting Times</h3><p>Saturdays: [time]<br>Special events and ceremonies announced to registered parents.</p></div>
+</div></div></section>
+
+<section id="contact" class="alt"><div class="w">
+<h2>Contact Us</h2><div class="bar"></div>
+<div class="cards">
+<div class="card"><h3>Get in touch</h3><p><b>Contact person:</b> Khanyisile Magasela<br><b>Phone:</b> [phone number]<br><b>Email:</b> <a id="mail" href="#"></a></p></div>
+<div class="card"><h3>Send a message</h3>
+<form id="msg"><input name="name" placeholder="Your name" required><textarea name="message" placeholder="Your message" required></textarea><button class="btn" type="submit">Send Message</button></form></div>
+</div></div></section>
+
+<footer>&copy; <span id="yr"></span> Isimilo se Ntombi NPO &middot; Gauteng, South Africa<br>Founded by Khanyisile Magasela and partners</footer>
+
+<script>
+var TO="khanyisile@example.com"; // replace with Khanyisile Magasela's real email
+document.getElementById("yr").textContent=new Date().getFullYear();
+var m=document.getElementById("mail");m.href="mailto:"+TO;m.textContent=TO;
+function send(subject,body){location.href="mailto:"+TO+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body)}
+document.getElementById("reg").addEventListener("submit",function(e){e.preventDefault();
+var f=new FormData(e.target),t="NEW REGISTRATION - Isimilo se Ntombi\n\n";
+[["parent","Parent/guardian"],["phone","Phone"],["email","Email"],["area","Area"],["child","Daughter"],["age","Age"],["school","School"],["grade","Grade"],["notes","Notes"]].forEach(function(p){t+=p[1]+": "+(f.get(p[0])||"-")+"\n"});
+send("Registration: "+f.get("child"),t)});
+document.getElementById("msg").addEventListener("submit",function(e){e.preventDefault();
+var f=new FormData(e.target);send("Website message from "+f.get("name"),f.get("message"))});
+</script></body></html>
